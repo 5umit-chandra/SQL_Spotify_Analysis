@@ -42,4 +42,4 @@ The findings from this SQL analysis offer actionable insights into the dynamic m
 
 ## ℹ️ Dataset Source
 
-The raw dataset is downloaded from [Kaggle](https://www.kaggle.com/).
+The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://www.kaggle.com/) and then imported into MySQL.
