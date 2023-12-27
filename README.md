@@ -1,9 +1,9 @@
 # Project Overview
 
-## Introduction
+## 📑 Introduction
 This GitHub repository houses an extensive SQL analysis of the "Most Streamed Spotify Songs 2023" dataset. The project employs advanced SQL queries to uncover insights into artist popularity, temporal trends, playlist impact, and song characteristics. This README.md provides a comprehensive overview, highlighting key features, analyses, and the potential impact of the findings.
 
-## Key Features
+## 🗝️ Key Features
 
 ### 1. Most Listened-to Artists
 The analysis reveals the most listened-to artists, with The Weeknd, Taylor Swift, and Ed Sheeran taking the lead in total streams. This underscores the immense popularity of these artists among global listeners.
@@ -32,10 +32,10 @@ The output filters songs with a low acoustic ratio (acousticness percentage < 10
 ### 9. Songs with High Lyrical Content
 Identification of songs with high lyrical content, based on a speechiness percentage > 10, caters to users who appreciate a focus on lyrics in their music.
 
-## Data Analysis
+## 📊 Data Analysis
 
 The SQL queries for data analysis are consolidated in the main file, [SQL_queries.sql](SQL_queries.sql), which conducts a granular exploration of the dataset. These analyses provide a multifaceted view of the music industry in 2023, touching upon user preferences, artist impact, and song attributes.
 
-## Conclusions
+## 🧠 Conclusions
 
 The findings from this SQL analysis offer actionable insights into the dynamic music landscape of 2023. Top artists, trends in annual song releases, and characteristics of popular songs provide a comprehensive understanding of the industry. This knowledge can guide strategic decisions for artists, platforms, and industry stakeholders.
