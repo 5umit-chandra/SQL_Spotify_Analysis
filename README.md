@@ -39,3 +39,7 @@ The SQL queries for data analysis are consolidated in the main file, [SQL_querie
 ## 🧠 Conclusions
 
 The findings from this SQL analysis offer actionable insights into the dynamic music landscape of 2023. Top artists, trends in annual song releases, and characteristics of popular songs provide a comprehensive understanding of the industry. This knowledge can guide strategic decisions for artists, platforms, and industry stakeholders.
+
+## Dataset Source
+
+The raw dataset is downloaded from [Kaggle](https://www.kaggle.com/).
