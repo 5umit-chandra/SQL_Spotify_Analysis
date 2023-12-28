@@ -1,10 +1,10 @@
 # 🟢 Most Streamed Spotify Songs 2023 - SQL Analysis
 
 ## 📝 Project Overview
-### Introduction
+### 🧾 Introduction
 Explore the dynamic music landscape of 2023 through advanced SQL queries on the "Most Streamed Spotify Songs" dataset. Uncover artist trends, temporal patterns, and the relationship between song attributes and popularity.
 
-### Key Features
+### 🗝️ Key Features
 1. **Most Listened-to Artists**
    - The Weeknd, Taylor Swift, and Ed Sheeran dominate total streams, showcasing global popularity.
 
@@ -39,7 +39,7 @@ The SQL queries for data analysis are consolidated in the main file, [SQL_querie
 The findings from this SQL analysis offer actionable insights into the dynamic music landscape of 2023. Top artists, trends in annual song releases, and characteristics of popular songs provide a comprehensive understanding of the industry. This knowledge can guide strategic decisions for artists, platforms, and industry stakeholders.
 
 ## ℹ️ Dataset Source
-The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://www.kaggle.com/). The dataset is stored in the file [spotify-2023.csv](MySQL Schemea and Data/spotify-2023.csv).
+The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://www.kaggle.com/). The dataset is stored in the file [spotify-2023.csv](spotify-2023.csv).
 
 ## 💾 Raw Data
 To facilitate analysis, the dataset was imported into MySQL. The schema for the MySQL database is defined in [Schemea.sql](MySQL Schemea and Data/Schemea.sql/), and the data is loaded into the table using [spotify_2023_spotify_data.sql](MySQL Schemea and Data/spotify_2023_spotify_data.sql).
