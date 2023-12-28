@@ -45,12 +45,6 @@ The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://ww
 To facilitate analysis, the dataset was imported into MySQL. The schema for the MySQL database is defined in [Schemea.sql](MySQL_Schemea_and_Data/Schemea.sql), and the data is loaded into the table using [spotify_2023_spotify_data.sql](MySQL_Schemea_and_Data/spotify_2023_spotify_data.sql).
 
 ## 👨‍💻 Data Import Process
-1. **Download Raw Dataset:**
-   - The initial dataset was obtained as a CSV file from Kaggle.
-
-2. **MySQL Schema Definition:**
-   - The schema for the MySQL database is defined in [Schemea.sql](MySQL_Schemea_and_Data/Schemea.sql).
-
 > [!TIP]
 > **MySQL Data Import:**
 >   - Utilize the "Table Data Import Wizard" for efficient data import process.
