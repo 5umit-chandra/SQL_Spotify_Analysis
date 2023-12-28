@@ -1,10 +1,10 @@
-# 🟢 Most Streamed Spotify Songs 2023 - SQL Analysis
-
+# **🟢 Most Streamed Spotify Songs 2023 - SQL Analysis**
 ## 📝 Project Overview
-### 🧾 Introduction
+
+## 🧾 Introduction
 Explore the dynamic music landscape of 2023 through advanced SQL queries on the "Most Streamed Spotify Songs" dataset. Uncover artist trends, temporal patterns, and the relationship between song attributes and popularity.
 
-### 🗝️ Key Features
+## 🗝️ Key Features
 1. **Most Listened-to Artists**
    - The Weeknd, Taylor Swift, and Ed Sheeran dominate total streams, showcasing global popularity.
 
@@ -39,24 +39,25 @@ The SQL queries for data analysis are consolidated in the main file, [SQL_querie
 The findings from this SQL analysis offer actionable insights into the dynamic music landscape of 2023. Top artists, trends in annual song releases, and characteristics of popular songs provide a comprehensive understanding of the industry. This knowledge can guide strategic decisions for artists, platforms, and industry stakeholders.
 
 ## ℹ️ Dataset Source
-The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://www.kaggle.com/). The dataset is stored in the file [spotify-2023.csv]("MySQL Schemea and Data/spotify-2023.csv").
+The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://www.kaggle.com/). The dataset is stored in the file [spotify-2023.csv](MySQL_Schemea_and_Data\spotify-2023.csv).
 
 ## 💾 Raw Data
-To facilitate analysis, the dataset was imported into MySQL. The schema for the MySQL database is defined in [Schemea.sql]("MySQL Schemea and Data\Schemea.sql"), and the data is loaded into the table using [spotify_2023_spotify_data.sql]("MySQL Schemea and Data\spotify_2023_spotify_data.sql").
+To facilitate analysis, the dataset was imported into MySQL. The schema for the MySQL database is defined in [Schemea.sql](MySQL_Schemea_and_Data\Schemea.sql), and the data is loaded into the table using [spotify_2023_spotify_data.sql](MySQL_Schemea_and_Data\spotify_2023_spotify_data.sql).
 
 ## 👨‍💻 Data Import Process
 1. **Download Raw Dataset:**
    - The initial dataset was obtained as a CSV file from Kaggle.
 
 2. **MySQL Schema Definition:**
-   - The schema for the MySQL database is defined in [Schemea.sql]('MySQL Schemea and Data/Schemea.sql').
+   - The schema for the MySQL database is defined in [Schemea.sql](MySQL_Schemea_and_Data\Schemea.sql).
 
 3. **MySQL Data Import:**
-   - Utilize the "Table Data Import Wizard" or use the provided SQL query in [spotify_2023_spotify_data.sql]("MySQL Schemea and Data\spotify_2023_spotify_data.sql") for efficient data import.
+   - Utilize the "Table Data Import Wizard" or use the provided SQL query in [spotify_2023_spotify_data.sql](MySQL_Schemea_and_Data\spotify_2023_spotify_data.sql) for efficient data import.
 
-```sql
+```
+
 -- Example import query
-LOAD DATA INFILE 'MySQL Schemea and Data\spotify-2023.csv'
+LOAD DATA INFILE 'MySQL_Schemea_and_Data\spotify-2023.csv'
 INTO TABLE spotify_data
 -- Specify field delimiter in CSV
 FIELDS TERMINATED BY ','
@@ -65,4 +66,6 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 -- skips the first row of CSV
 IGNORE 1 ROWS;
+
 ```
+
