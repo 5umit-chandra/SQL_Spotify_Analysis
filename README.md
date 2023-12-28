@@ -1,45 +1,68 @@
-# Project Overview
+# 🟢 Most Streamed Spotify Songs 2023 - SQL Analysis
 
-## 📑 Introduction
-This GitHub repository houses an extensive SQL analysis of the "Most Streamed Spotify Songs 2023" dataset. The project employs advanced SQL queries to uncover insights into artist popularity, temporal trends, playlist impact, and song characteristics. This README.md provides a comprehensive overview, highlighting key features, analyses, and the potential impact of the findings.
+## 📝 Project Overview
+### Introduction
+Explore the dynamic music landscape of 2023 through advanced SQL queries on the "Most Streamed Spotify Songs" dataset. Uncover artist trends, temporal patterns, and the relationship between song attributes and popularity.
 
-## 🗝️ Key Features
+### Key Features
+1. **Most Listened-to Artists**
+   - The Weeknd, Taylor Swift, and Ed Sheeran dominate total streams, showcasing global popularity.
 
-### 1. Most Listened-to Artists
-The analysis reveals the most listened-to artists, with The Weeknd, Taylor Swift, and Ed Sheeran taking the lead in total streams. This underscores the immense popularity of these artists among global listeners.
+2. **Song Counts Released Annually**
+   - Explore the evolving music industry landscape with a detailed breakdown of song releases by year, spanning from the 1950s onwards.
 
-### 2. Song Counts Released Annually
-A detailed breakdown of song releases by year showcases the evolving landscape of the music industry. The increasing number of releases from the 1950s onwards reflects the industry's growth and diversity.
+3. **New Songs**
+   - Stay current with a curated list of the latest songs in 2023, providing valuable insights for music enthusiasts and industry professionals.
 
-### 3. New Songs
-A curated list of the newest songs based on release date provides a snapshot of the latest music offerings in 2023. This information is valuable for music enthusiasts and industry professionals seeking to stay current.
+4. **Most Popular Songs on Spotify and Apple Music**
+   - Identify current musical trends and preferences across major streaming platforms, including ranks and popularity metrics.
 
-### 4. Most Popular Songs on Spotify and Apple Music
-Identification of the most popular songs on Spotify and Apple Music, including their respective ranks, offers insights into current musical trends and preferences across major streaming platforms.
+5. **High-Tempo Songs**
+   - Catering to energetic listeners, discover a list of high-tempo songs with beats per minute (BPM) over 150.
 
-### 5. High-Tempo Songs
-The list of high-tempo songs, filtered by beats per minute (BPM) over 150, caters to listeners who enjoy energetic and fast-paced musical experiences.
+6. **Songs Found in Most Playlists**
+   - Shed light on user playlist preferences with an identification of songs frequently found in Spotify and Apple Music playlists.
 
-### 6. Songs Found in Most Playlists
-Identification of songs most frequently found in Spotify and Apple Music playlists sheds light on user playlist preferences and the songs that resonate across platforms.
+7. **Energetic Songs**
+   - Explore a curated list of energetic songs with a high energy percentage for dynamic musical experiences.
 
-### 7. Energetic Songs
-A curated list of energetic songs with a high energy percentage caters to those seeking lively and dynamic musical experiences.
+8. **Acoustic Songs**
+   - Discover non-acoustic or minimally acoustic tracks with a low acoustic ratio (acousticness percentage < 10).
 
-### 8. Acoustic Songs
-The output filters songs with a low acoustic ratio (acousticness percentage < 10), presenting a collection of non-acoustic or minimally acoustic tracks.
-
-### 9. Songs with High Lyrical Content
-Identification of songs with high lyrical content, based on a speechiness percentage > 10, caters to users who appreciate a focus on lyrics in their music.
+9. **Songs with High Lyrical Content**
+   - Catering to lyric enthusiasts, identify songs with high lyrical content based on a speechiness percentage > 10.
 
 ## 📊 Data Analysis
-
-The SQL queries for data analysis are consolidated in the main file, [SQL_queries.sql](SQL_queries.sql), which conducts a granular exploration of the dataset. These analyses provide a multifaceted view of the music industry in 2023, touching upon user preferences, artist impact, and song attributes.
+The SQL queries for data analysis are consolidated in the main file, [SQL_queries.sql](SQL_queries.sql), providing a granular exploration of the dataset. These analyses offer a multifaceted view of the music industry in 2023, covering user preferences, artist impact, and song attributes.
 
 ## 🧠 Conclusions
-
 The findings from this SQL analysis offer actionable insights into the dynamic music landscape of 2023. Top artists, trends in annual song releases, and characteristics of popular songs provide a comprehensive understanding of the industry. This knowledge can guide strategic decisions for artists, platforms, and industry stakeholders.
 
 ## ℹ️ Dataset Source
+The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://www.kaggle.com/). The dataset is stored in the file [spotify-2023.csv](MySQL Schemea and Data\spotify-2023.csv).
 
-The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://www.kaggle.com/) and then imported into MySQL.
+## 💾 Raw Data
+To facilitate analysis, the dataset was imported into MySQL. The schema for the MySQL database is defined in [Schemea.sql](link to file), and the data is loaded into the table using [spotify_2023_spotify_data.sql](MySQL Schemea and Data\spotify_2023_spotify_data.sql).
+
+## 👨‍💻 Data Import Process
+1. **Download Raw Dataset:**
+   - The initial dataset was obtained as a CSV file from Kaggle.
+
+2. **MySQL Schema Definition:**
+   - The schema for the MySQL database is defined in [Schemea.sql](MySQL Schemea and Data\Schemea.sql).
+
+3. **MySQL Data Import:**
+   - Utilize the "Table Data Import Wizard" or use the provided SQL query in [spotify_2023_spotify_data.sql](MySQL Schemea and Data\spotify_2023_spotify_data.sql) for efficient data import.
+
+```sql
+-- Example import query
+LOAD DATA INFILE 'MySQL Schemea and Data\spotify-2023.csv'
+INTO TABLE spotify_data
+-- Specify field delimiter in CSV
+FIELDS TERMINATED BY ','
+-- encloser fields containing text
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+-- skips the first row of CSV
+IGNORE 1 ROWS;
+```
