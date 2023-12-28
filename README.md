@@ -49,7 +49,7 @@ To facilitate analysis, the dataset was imported into MySQL. The schema for the 
    - The initial dataset was obtained as a CSV file from Kaggle.
 
 2. **MySQL Schema Definition:**
-   - The schema for the MySQL database is defined in [Schemea.sql]("MySQL Schemea and Data\Schemea.sql").
+   - The schema for the MySQL database is defined in [Schemea.sql]('MySQL Schemea and Data\Schemea.sql').
 
 3. **MySQL Data Import:**
    - Utilize the "Table Data Import Wizard" or use the provided SQL query in [spotify_2023_spotify_data.sql]("MySQL Schemea and Data\spotify_2023_spotify_data.sql") for efficient data import.
