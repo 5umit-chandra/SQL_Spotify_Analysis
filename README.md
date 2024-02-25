@@ -2,7 +2,7 @@
 ## 📝 Project Overview
 
 ## 🧾 Introduction
-Explore the dynamic music landscape of 2023 through advanced SQL queries on the "Most Streamed Spotify Songs" dataset. Uncover artist trends, temporal patterns, and the relationship between song attributes and popularity.
+Dynamic music landscape of 2023 through advanced SQL queries on the "Most Streamed Spotify Songs" dataset. Uncover artist trends, temporal patterns, and the relationship between song attributes and popularity.
 
 ## 🗝️ Key Features
 1. **Most Listened-to Artists**
@@ -33,10 +33,10 @@ Explore the dynamic music landscape of 2023 through advanced SQL queries on the 
    - Catering to lyric enthusiasts, identify songs with high lyrical content based on a speechiness percentage > 10.
 
 ## 📊 Data Analysis
-The SQL queries for data analysis are consolidated in the main file, [SQL_queries.sql](SQL_queries.sql), providing a granular exploration of the dataset. These analyses offer a multifaceted view of the music industry in 2023, covering user preferences, artist impact, and song attributes.
+The SQL queries for data analysis are consolidated in the main file, [SQL_queries.sql](SQL_queries.sql), providing a granular exploration of the dataset.
 
 ## 🧠 Conclusions
-The findings from this SQL analysis offer actionable insights into the dynamic music landscape of 2023. Top artists, trends in annual song releases, and characteristics of popular songs provide a comprehensive understanding of the industry. This knowledge can guide strategic decisions for artists, platforms, and industry stakeholders.
+The findings from this SQL analysis offer actionable insights into the dynamic music landscape of 2023. Top artists, trends in annual song releases, and characteristics of popular songs provide a comprehensive understanding of the industry.
 
 ## ℹ️ Dataset Source
 The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://www.kaggle.com/). The dataset is stored in the file [spotify-2023.csv](MySQL_Schemea_and_Data/spotify-2023.csv).
